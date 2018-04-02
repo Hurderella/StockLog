@@ -1,0 +1,886 @@
+{
+	"opt10001" : {
+		"name" : "주식기본정보요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "종목코드"
+		}
+	},
+	"opt10002" : {
+		"name" : "주식거래원요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "종목코드"
+		}
+	},
+	"opt10003" : {
+		"name" : "체결정보요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "종목코드"
+		}
+	},
+	"opt10004" : {
+		"name" : "주식호가요청"
+		,
+		"arg0" : {
+			"type" : "int",
+			"description" : "종목코드"
+		}
+	},
+	"opt10005" : {
+		"name" : "주식일주월시분요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "종목코드"
+		}
+	},
+	"OPT10006" : {
+		"name" : "주식시분요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "종목코드"
+		}
+	},
+	"opt10007" : {
+		"name" : "시세표성정보요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "종목코드"
+		}
+	},
+	"opt10008" : {
+		"name" : "주식외국인요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "종목코드"
+		}
+	},
+	"OPT10009" : {
+		"name" : "주식기관요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "종목코드"
+		}
+	},
+	"OPT10010" : {
+		"name" : "업종프로그램요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "종목코드"
+		}
+	},
+	"opt10012" : {
+		"name" : "주문체결요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "종목코드"
+		}
+	},
+	"opt10013" : {
+		"name" : "신용매매동향요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "종목코드"
+		},
+		"arg1" : {
+			"type" : "date",
+			"description" : "일자"
+			},
+		"arg2" : {
+			"tyue" : "int",
+			"description" : "조회구분"
+		}
+	},
+	"opt10014" : {
+		"name" : "공매도추이요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "종목코드"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "시간구분"
+		},
+		"arg2" : {
+			"type" : "date",
+			"description" : "시작일자"
+		},
+		"arg3" : {
+			"type" : "date",
+			"description" : "종료일자"
+		}
+	},
+	"opt10015" : {
+		"name" : "일별거래상세요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "종목코드"
+		},
+		"arg1" : {
+			"type" : "date",
+			"description" : "시작일자"
+		}
+	},
+	"OPT10016" : {
+		"name" : "신고저가요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "시장구분"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "신고저구분"
+		},
+		"arg2" : {
+			"type" : "int",
+			"description" : "고저종구분"
+		},
+		"arg3" : {
+			"type" : "int",
+			"description" : "종목조건"
+		},
+		"arg4" : {
+			"type" : "int",
+			"description" : "거래량구분"
+		},
+		"arg5" : {
+			"type" : "int",
+			"description" : "신용조건"
+		},
+		"arg6" : {
+			"type" : "int",
+			"description" : "상하한포함"
+		},
+		"arg7" : {
+			"type" : "int",
+			"description" : "기간"
+		}
+	},
+	"opt10017" : {
+		"name" : "상하한가요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "시장구분"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "상하한구분"
+		},
+		"arg2" : {
+			"type" : "int",
+			"description" : "정렬구분"
+		},
+		"arg3" : {
+			"type" : "int",
+			"description" : "종목조건"
+		},
+		"arg4" : {
+			"type" : "int",
+			"description" : "거래량구분"
+		},
+		"arg5" : {
+			"type" : "int",
+			"description" : "신용조건"
+		},
+		"arg6" : {
+			"type" : "int",
+			"description" : "매매금구분"
+		}
+	},
+	"OPT10018" : {
+		"name" : "고저가근접요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "고저구분"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "근접율"
+		},
+		"arg2" : {
+			"type" : "int",
+			"description" : "시장구분"
+		},
+		"arg3" : {
+			"type" : "int",
+			"description" : "거래량구분"
+		},
+		"arg4" : {
+			"type" : "int",
+			"description" : "종목조건"
+		},
+		"arg5" : {
+			"type" : "int",
+			"description" : "신용조건"
+		}
+	},
+	"opt10019" : {
+		"name" : "가극겹등락요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "시장구분"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "등락구분"
+		},
+		"arg2" : {
+			"type" : "int",
+			"description" : "시간구분"
+		},
+		"arg3" : {
+			"type" : "int",
+			"description" : "시간"
+		},
+		"arg4" : {
+			"type" : "int",
+			"description" : "거래량구분"
+		},
+		"arg5" : {
+			"type" : "int",
+			"description" : "종목조건"
+		},
+		"arg6" : {
+			"type" : "int",
+			"description" : "신용조건"
+		},
+		"arg7" : {
+			"type" : "int",
+			"description" : "가격조건"
+		},
+		"arg8" : {
+			"type" : "int",
+			"description" : "상하한포함"
+		}
+	},
+	"OPT10020" : {
+		"name" : "호가잔량상위요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "시장구분"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "정렬구분"
+		},
+		"arg2" : {
+			"type" : "int",
+			"description" : "거래량구분"
+		},
+		"arg3" : {
+			"type" : "int",
+			"description" : "종목조건"
+		},
+		"arg4" : {
+			"type" : "int",
+			"description" : "신용조건"
+		}
+	},
+	"OPT10021" : {
+		"name" : "호가잔량급증요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "시장구분"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "매매구분"
+		},
+		"arg2" : {
+			"type" : "int",
+			"description" : "정렬구분"
+		},
+		"arg3" : {
+			"type" : "int",
+			"description" : "시간구분"
+		},
+		"arg4" : {
+			"type" : "int",
+			"description" : "거래량구분"
+		},
+		"arg5" : {
+			"type" : "int",
+			"description" : "종목조건"
+		}
+	},
+	"OPT10022" : {
+		"name" : "잔량율급증요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "시장구분"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "비율구분"
+		},
+		"arg2" : {
+			"type" : "int",
+			"description" : "시간구분"
+		},
+		"arg3" : {
+			"type" : "int",
+			"description" : "거래량구분"
+		},
+		"arg4" : {
+			"type" : "int",
+			"description" : "종목조건"
+		}
+	},
+	"OPT10023" : {
+		"name" : "거래량급증요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "시장구분"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "정렬구분"
+		},
+		"arg2" : {
+			"type" : "int",
+			"description" : "시간구분"
+		},
+		"arg3" : {
+			"type" : "int",
+			"description" : "거래량구분"
+		},
+		"arg4" : {
+			"type" : "int",
+			"description" : "시간"
+		},
+		"arg5" : {
+			"type" : "int",
+			"description" : "종목조건"
+		},
+		"arg6" : {
+			"type" : "int",
+			"description" : "가격구분"
+		}
+	},
+	"OPT10024" : {
+		"name" : "거래량갱신요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "시장구분"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "주기구분"
+		},
+		"arg2" : {
+			"type" : "int",
+			"description" : "거래량구분"
+		}
+	},
+	"OPT10025" : {
+		"name" : "매물대집중요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "시장구분"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "매물집중비율"
+		},
+		"arg2" : {
+			"type" : "int",
+			"description" : "현재가진입"
+		},
+		"arg3" : {
+			"type" : "int",
+			"description" : "매물대수"
+		},
+		"arg4" : {
+			"type" : "int",
+			"description" : "주기구분"
+		}
+	},
+	"opt10026" : {
+		"name" : "고저PER요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "PER구분"
+		}
+	},
+	"opt10027" : {
+		"name" : "전일대비등락율상위요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "시장구분"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "정렬구분"
+		},
+		"arg2" : {
+			"type" : "int",
+			"description" : "거래량조건"
+		},
+		"arg3" : {
+			"type" : "int",
+			"description" : "종목조건"
+		},
+		"arg4" : {
+			"type" : "int",
+			"description" : "신용조건"
+		},
+		"arg5" : {
+			"type" : "int",
+			"description" : "상하한포함"
+		},
+		"arg6" : {
+			"type" : "int",
+			"description" : "가격조건"
+		},
+		"arg7" : {
+			"type" : "int",
+			"description" : "거래대금조건"
+		}
+	},
+	"opt10028":{
+		"name" : "시가대비등락율요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "정렬구분"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "거래량조건"
+		},
+		"arg2" : {
+			"type" : "int",
+			"description" : "시장구분"
+		},
+		"arg3" : {
+			"type" : "int",
+			"description" : "상하한포함"
+		},
+		"arg4" : {
+			"type" : "int",
+			"description" : "종목조건"
+		},
+		"arg5" : {
+			"type" : "int",
+			"description" : "신용조건"
+		},
+		"arg6" : {
+			"type" : "int",
+			"description" : "거래대금조건"
+		},
+		"arg7" : {
+			"type" : "int",
+			"description" : "등락조건"
+		}
+	},
+	"OPT10029" : {
+		"name" : "예상체결등락률상위요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "시장구분"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "정렬구분"
+		},
+		"arg2" : {
+			"type" : "int",
+			"description" : "거래량조건"
+		},
+		"arg3" : {
+			"type" : "int",
+			"description" : "종목조건"
+		},
+		"arg4" : {
+			"type" : "int",
+			"description" : "신용조건"
+		},
+		"arg5" : {
+			"type" : "int",
+			"description" : "가격조건"
+		}
+	},
+	"OPT10030" : {
+		"name" : "당일거래량상위요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "시장구분"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "정렬구분"
+		},
+		"arg2" : {
+			"type" : "int",
+			"description" : "관리종목포함"
+		}
+	},
+	"OPT10031" : {
+		"name" : "전일거래량상위요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "시장구분"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "조회구분"
+		},
+		"arg2" : {
+			"type" : "int",
+			"description" : "순위시작"
+		},
+		"arg3" : {
+			"type" : "int",
+			"description" : "순위끝"
+		}
+	},
+	"OPT10032" : {
+		"name" : "거래대금상위요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "시장구분"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "관리종목포함"
+		}
+	},
+	"opt10033" : {
+		"name" : "신용비율상위요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "시장구분"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "거래량구분"
+		},
+		"arg2" : {
+			"type" : "int",
+			"description" : "종목조건"
+		},
+		"arg3" : {
+			"type" : "int",
+			"description" : "상하한포함"
+		},
+		"arg4" : {
+			"type" : "int",
+			"description" : "신용조건"
+		}
+	},
+	"OPT10034" : {
+		"name" : "외인기간별매매상위요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "시장구분"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "매매구분"
+		},
+		"arg2" : {
+			"type" : "int",
+			"description" : "기간"
+		}
+	},
+	"OPT10035" : {
+		"name" : "외인연속순매매상위요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "시장구분"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "매매구분"
+		},
+		"arg2" : {
+			"type" : "int",
+			"description" : "기준일구분"
+		}
+	},
+	"OPT10036" : {
+		"name" : "매매상위요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "시장구분"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "기간"
+		}
+	},
+	"opt10037" : {
+		"name" : "외국계창구매매상위요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "시장구분"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "기간"
+		},
+		"arg2" : {
+			"type" : "int",
+			"description" : "매매구분"
+		},
+		"arg3" : {
+			"type" : "int",
+			"description" : "정렬구분"
+		},
+		"arg4" : {
+			"type" : "int",
+			"description" : "현재가조건"
+		}
+	},
+	"opt10038" : {
+		"name" : "종목별증권사순위요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "종목코드"
+		},
+		"arg1" : {
+			"type" : "date",
+			"description" : "시작일자"
+		},
+		"arg2" : {
+			"type" : "date",
+			"description" : "종료일자"
+		},
+		"arg3" : {
+			"type" : "int",
+			"description" : "조회구분"
+		},
+		"arg4" : {
+			"type" : "int",
+			"description" : "기간"
+		}
+	},
+	"OPT10039" : {
+		"name" : "증권사별매매상위요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "회원사코드"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "거래량구분"
+		},
+		"arg2" : {
+			"type" : "int",
+			"description" : "매매구분"
+		},
+		"arg3" : {
+			"type" : "int",
+			"description" : "기간"
+		}
+	},
+	"opt10040" : {
+		"name" : "당일주요거래원요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "종목코드"
+		}
+	},
+	"opt10041" : {
+		"name" : "조기종료통화단위요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "종목코드"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "영웅클럽구분"
+		}
+	},
+	"opt10042" : {
+		"name" : "순매수거래원순위요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "종목코드"
+		},
+		"arg1" : {
+			"type" : "date",
+			"description" : "시작일자"
+		},
+		"arg2" : {
+			"type" : "date",
+			"description" : "종료일자"
+		},
+		"arg3" : {
+			"type" : "int",
+			"description" : "조회기간구분"
+		},
+		"arg4" : {
+			"type" : "int",
+			"description" : "시점구분"
+		},
+		"arg5" : {
+			"type" : "int",
+			"description" : "기간"
+		},
+		"arg6" : {
+			"type" : "int",
+			"description" : "정렬기준"
+		}
+	},
+	"opt10043" : {
+		"name" : "거래원매물대분석요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "종목코드"
+		},
+		"arg1" : {
+			"type" : "date",
+			"description" : "시작일자"
+		},
+		"arg2" : {
+			"type" : "int",
+			"description" : "종료일자"
+		},
+		"arg3" : {
+			"type" : "int",
+			"description" : "조회기간구분"
+		},
+		"arg4" : {
+			"type" : "int",
+			"description" : "시점구분"
+		},
+		"arg 5" : {
+			"type" : "int",
+			"description" : "기간"
+		},
+		"arg6" : {
+			"type" : "int",
+			"description" : "정렬기준"
+		},
+		"arg7" : {
+			"type" : "int",
+			"description" : "회원사코드"
+		}
+	},
+	"OPT10044" : {
+		"name" : "일별기관매매종목요청",
+		"arg0" : {
+			"type" : "date",
+			"description" : "시작일자"
+		},
+		"arg1" : {
+			"type" : "date",
+			"description" : "종료일자"
+		},
+		"arg2" : {
+			"type" : "int",
+			"description" : "매매구분"
+		},
+		"arg3" : {
+			"type" : "int",
+			"description" : "시장구분"
+		}
+	},
+	"opt10045" : {
+		"name" : "종목별기관매매추이요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "종목코드"
+		},
+		"arg1" : {
+			"type" : "date",
+			"description" : "시작일자"
+		},
+		"arg2" : {
+			"type" : "date",
+			"description" : "종료일자"
+		},
+		"arg3" : {
+			"type" : "int",
+			"description" : "기관추정단가구분"
+		},
+		"arg4" : {
+			"type" : "int",
+			"description" : "외인추정단가구분"
+		}
+	},
+	"opt10051" : {
+		"name" : "업종별투자자순매수요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "시장구분"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "금액수량구분"
+		},
+		"arg2" : {
+			"type" : "date",
+			"description" : "기준일자"
+		}
+	},
+	"opt10053" : {
+		"name" : "당일상위이탈원요청",
+		"arg0" : {
+			"type" : "int",
+			"description" : "종목코드"
+		}
+	},
+	"OPT10058" : {
+		"name" : "투자자별일별매매종목요청",
+		"arg0" : {
+			"type" : "date",
+			"description" : "시작일자"
+		},
+		"arg1" : {
+			"type" : "date",
+			"description" : "종료일자"
+		},
+		"arg2" : {
+			"type" : "int",
+			"description" : "매매구분"
+		},
+		"arg3" : {
+			"type" : "int",
+			"description" : "시장구분"
+		},
+		"arg4" : {
+			"type" : "int",
+			"description" : "투자자구분"
+		}
+	},
+	"opt10059" : {
+		"name" : "종목별투자자기관별요청",
+		"arg0" : {
+			"type" : "date",
+			"description" : "일자"
+		},
+		"arg1" : {
+			"type" : "int",
+			"description" : "종목코드"
+		},
+		"arg2" : {
+			"type" : "int",
+			"description" : "금액수량구분"
+		},
+		"arg3" : {
+			"type" : "int",
+			"description" : "매매구분"
+		},
+		"arg4" : {
+			"type" : "int",
+			"description" : "단위구분"
+		}
+	},
+	"opt10070": {"name": "당일주요거래원요청", "arg0": {"type": "int", "description": "종목코드"}}, "opt10066": {"arg1": {"type": "int", "description": "금액수량구분"}, "name": "장중투자자별매매차트요청", "arg3": {"type": "int", "description": "종목코드"}, "arg0": {"type": "int", "description": "시장구분"}, "arg2": {"type": "int", "description": "매매구분"}}, "opt10075": {"arg1": {"type": "int", "description": "체결구분"}, "name": "실시간미체결요청", "arg0": {"type": "int", "description": "계좌번호"}, "arg2": {"type": "int", "description": "매매구분"}}, "opt10087": {"name": "시간외단일가요청", "arg0": {"type": "int", "description": "종목코드"}}, "OPT10067": {"arg1": {"type": "int", "description": "시장구분"}, "name": "대차거래내역요청", "arg0": {"type": "date", "description": "기준일자"}}, "opt10074": {"arg1": {"type": "date", "description": "시작일자"}, "name": "일자별실현손익요청", "arg0": {"type": "int", "description": "계좌번호"}, "arg2": {"type": "date", "description": "종료일자"}}, "opt20009": {"name": "업종현재가일별요청", "arg0": {"type": "int", "description": "업종코드"}}, "OPT10065": {"arg1": {"type": "int", "description": "시장구분"}, "name": "장중투자자별매매상위요청", "arg0": {"type": "int", "description": "매매구분"}, "arg2": {"type": "int", "description": "기관구분"}}, "opt90013": {"arg1": {"type": "int", "description": "금액수량구분"}, "name": "종목일별프로그램매매추이요청", "arg3": {"type": "date", "description": "날짜"}, "arg0": {"type": "int", "description": "시간일자구분"}, "arg2": {"type": "int", "description": "종목코드"}}, "OPT10069": {"arg1": {"type": "date", "description": "종료일자"}, "name": "대차거래상위10종목요청", "arg0": {"type": "date", "description": "시작일자"}, "arg2": {"type": "int", "description": "시장구분"}}, "opt20004": {"arg1": {"type": "int", "description": "틱범위"}, "name": "업종틱차트조회요청", "arg0": {"type": "int", "description": "업종코드"}}, "opt10079": {"arg1": {"type": "int", "description": "틱범위"}, "name": "주식틱차트조회요청", "arg0": {"type": "int", "description": "종목코드"}, "arg2": {"type": "int", "description": "수정주가구분"}}, "opt10062": {"arg1": {"type": "date", "description": "종료일자"}, "arg5": {"type": "int", "description": "단위구분"}, "arg3": {"type": "int", "description": "매매구분"}, "arg0": {"type": "date", "description": "시작일자"}, "arg4": {"type": "int", "description": "정렬조건"}, "name": "동일순매매순위요청", "arg2": {"type": "int", "description": "시장구분"}}, "opt10080": {"arg1": {"type": "int", "description": "틱범위"}, "name": "주식분봉차트조회요청", "arg0": {"type": "int", "description": "종목코드"}, "arg2": {"type": "int", "description": "수정주가구분"}}, "opt99999": {"arg1": {"type": "date", "description": "종료일자"}, "name": "대차거래상위10종목요청", "arg0": {"type": "date", "description": "시작일자"}, "arg2": {"type": "int", "description": "시장구분"}}, "opt20019": {"arg1": {"type": "int", "description": "기준일자"}, "name": "업종년봉조회요청", "arg0": {"type": "int", "description": "업종코드"}}, "opt10083": {"arg1": {"type": "date", "description": "기준일자"}, "name": "주식월봉차트조회요청", "arg3": {"type": "int", "description": "수정주가구분"}, "arg0": {"type": "int", "description": "종목코드"}, "arg2": {"type": "int", "description": "끝일자"}}, "opt20006": {"arg1": {"type": "date", "description": "기준일자"}, "name": "업종일봉조회요청", "arg0": {"type": "int", "description": "업종코드"}}, "opt10085": {"name": "계좌수익률요청", "arg0": {"type": "int", "description": "계좌번호"}}, "opt90003": {"arg1": {"type": "int", "description": "금액수량구분"}, "name": "프로그램순매수상위50요청", "arg0": {"type": "int", "description": "매매상위구분"}, "arg2": {"type": "int", "description": "시장구분"}}, "opt20001": {"arg1": {"type": "int", "description": "업종코드"}, "name": "업종현재가요청", "arg0": {"type": "int", "description": "시장구분"}}, "opt20068": {"arg1": {"type": "date", "description": "종료일자"}, "name": "대차거래추이요청(종목별)", "arg3": {"type": "int", "description": "종목코드"}, "arg0": {"type": "date", "description": "시작일자"}, "arg2": {"type": "int", "description": "전체구분"}}, "opt90009": {"arg1": {"type": "int", "description": "금액수량구분"}, "name": "외국인기관매매상위요청", "arg3": {"type": "date", "description": "날짜"}, "arg0": {"type": "int", "description": "시장구분"}, "arg2": {"type": "int", "description": "조회일자구분"}}, "OPT90006": {"name": "프로그램매매차익잔고추이요청", "arg0": {"type": "date", "description": "날짜"}}, "opt10081": {"arg1": {"type": "date", "description": "기준일자"}, "name": "주식일봉차트조회요청", "arg0": {"type": "int", "description": "종목코드"}, "arg2": {"type": "int", "description": "수정주가구분"}}, "opt10064": {"arg1": {"type": "int", "description": "금액수량구분"}, "name": "장중투자자별매매차트요청", "arg3": {"type": "int", "description": "종목코드"}, "arg0": {"type": "int", "description": "시장구분"}, "arg2": {"type": "int", "description": "매매구분"}}, "OPT10072": {"arg1": {"type": "int", "description": "종목코드"}, "name": "일자별종목별실현손익요청", "arg0": {"type": "int", "description": "계좌번호"}, "arg2": {"type": "date", "description": "시작일자"}}, "opt10073": {"arg1": {"type": "int", "description": "종목코드"}, "name": "일자별종목별실현손익요청", "arg3": {"type": "date", "description": "종료일자"}, "arg0": {"type": "int", "description": "계좌번호"}, "arg2": {"type": "date", "description": "시작일자"}}, "opt20008": {"arg1": {"type": "date", "description": "기준일자"}, "name": "업종월봉조회요청", "arg0": {"type": "int", "description": "업종코드"}}, "OPT20002": {"arg1": {"type": "int", "description": "업종코드"}, "name": "업종별주가요청", "arg0": {"type": "int", "description": "시장구분"}}, "OPT90010": {"arg1": {"type": "int", "description": "금액수량구분"}, "name": "차익잔고현황요청", "arg0": {"type": "date", "description": "일자"}}, "opt10061": {"arg1": {"type": "date", "description": "시작일자"}, "arg5": {"type": "int", "description": "단위구분"}, "arg3": {"type": "int", "description": "금액수량구분"}, "arg0": {"type": "int", "description": "종목코드"}, "arg4": {"type": "int", "description": "매매구분"}, "name": "종목별투자자기관별합계요청", "arg2": {"type": "date", "description": "종료일자"}}, "opt90008": {"arg1": {"type": "int", "description": "금액수량구분"}, "name": "종목시간별프로그램매매추이요청", "arg3": {"type": "date", "description": "날짜"}, "arg0": {"type": "int", "description": "시간일자구분"}, "arg2": {"type": "int", "description": "종목코드"}}, "OPT90004": {"arg1": {"type": "int", "description": "시장구분"}, "name": "종목별프로그램매매현황요청", "arg0": {"type": "date", "description": "일자"}}, "opt10082": {"arg1": {"type": "date", "description": "기준일자"}, "name": "주식주봉차트조회요청", "arg3": {"type": "int", "description": "수정주가구분"}, "arg0": {"type": "int", "description": "종목코드"}, "arg2": {"type": "int", "description": "끝일자"}}, "OPT90012": {"arg1": {"type": "int", "description": "시장구분"}, "name": "대차거래내역요청", "arg0": {"type": "date", "description": "일자"}}, "opt50008": {"arg1": {"type": "int", "description": "시간구분"}, "name": "프로그램매매추이차트요청", "arg0": {"type": "int", "description": "종목코드"}}, "opt10086": {"arg1": {"type": "date", "description": "조회일자"}, "name": "일별주가요청", "arg0": {"type": "int", "description": "종목코드"}, "arg2": {"type": "int", "description": "표시구분"}}, "opt20003": {"name": "전업종지수요청", "arg0": {"type": "int", "description": "업종코드"}}, "OPT10071": {"arg1": {"type": "int", "description": "시간구분"}, "name": "시간대별전일비거래비중요청", "arg0": {"type": "int", "description": "종목코드"}}, "opt20007": {"arg1": {"type": "date", "description": "기준일자"}, "name": "업종주봉조회요청", "arg0": {"type": "int", "description": "업종코드"}}, "opt10063": {"arg1": {"type": "int", "description": "금액수량구분"}, "arg3": {"type": "int", "description": "외국계전체"}, "arg0": {"type": "int", "description": "시장구분"}, "arg4": {"type": "int", "description": "동시순매수구분"}, "name": "장중투자자별매매요청", "arg2": {"type": "int", "description": "투자자별"}}, "OPT50037": {"arg1": {"type": "date", "description": "기준일자"}, "name": "코스피200지수요청", "arg0": {"type": "int", "description": "종목코드"}}, "OPT10068": {"arg1": {"type": "date", "description": "종료일자"}, "name": "대차거래추이요청", "arg3": {"type": "int", "description": "종목코드"}, "arg0": {"type": "date", "description": "시작일자"}, "arg2": {"type": "int", "description": "전체구분"}}, "OPT10078": {"arg1": {"type": "int", "description": "종목코드"}, "name": "증권사별종목매매동향요청", "arg3": {"type": "date", "description": "종료일자"}, "arg0": {"type": "int", "description": "회원사코드"}, "arg2": {"type": "date", "description": "시작일자"}}, "OPT90007": {"arg1": {"type": "int", "description": "금액수량구분"}, "name": "프로그램매매누적추이요청", "arg0": {"type": "date", "description": "날짜"}, "arg2": {"type": "int", "description": "시장구분"}}, "OPT90005": {"arg1": {"type": "int", "description": "시간구분"}, "arg3": {"type": "int", "description": "시장구분"}, "arg0": {"type": "date", "description": "날짜"}, "arg4": {"type": "int", "description": "분틱구분"}, "name": "프로그램매매추이요청", "arg2": {"type": "int", "description": "금액수량구분"}}, "opt10060": {"arg1": {"type": "int", "description": "종목코드"}, "arg3": {"type": "int", "description": "매매구분"}, "arg0": {"type": "date", "description": "일자"}, "arg4": {"type": "int", "description": "단위구분"}, "name": "종목별투자자기관별차트요청", "arg2": {"type": "int", "description": "금액수량구분"}}, "opt20005": {"arg1": {"type": "int", "description": "틱범위"}, "name": "업종분봉조회요청", "arg0": {"type": "int", "description": "업종코드"}}, "opt90011": {"arg1": {"type": "int", "description": "금액수량구분"}, "name": "차익잔고현황요청", "arg0": {"type": "date", "description": "일자"}}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

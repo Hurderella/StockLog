@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		setting
+	</title>
+	<link rel="stylesheet" href="./jquery-ui-1.12.1/jquery-ui.min.css">
+	<script src="./jquery-ui-1.12.1/external/jquery/jquery.js"></script>
+	<script src="./jquery-ui-1.12.1/jquery-ui.min.js"></script>
+
+	
+</head>
+<body>
+	<p>Hello Log~</p>
+	
+	<form>
+		<input type = "checkbox" name = "what" value = "what1"> WHAT!! <br> 
+		<input type = "submit" value ="Submit">
+		
+		
+		<input type="checkbox" name="checkbox-1" id="checkbox-1">
+		<label for="checkbox-1">Hello</label>
+		
+	<input type="text" name="date" id="date">
+	<checkbox id = "radio">aaaaa</checkbox>
+	<h2 class="demoHeaders">Button</h2>
+	<button id="button">abcd</button>
+	<button id="button-icon">An icon-only button</button>
+
+	</form>
+
+	<script type="text/javascript">
+		$( "#button" ).button();
+		$( "#button-icon" ).button({
+			icon: "ui-icon-gear",
+			showLabel: false
+		});
+
+		$( "#date" ).datepicker();	
+		$( "#checkbox-1" ).checkboxradio();
+	</script>
+</body>
+</html>
